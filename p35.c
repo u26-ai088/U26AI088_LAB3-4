@@ -5,7 +5,7 @@ int main()
     printf("enter number");
     scanf("%d",&num);
     i=num;
-    /*
+    
     while(i>0)
     {
         j=i%10;
@@ -24,18 +24,6 @@ int main()
             i=i/10;
         }
     }
-    */
-    int a=num;    
-    while(1)
-    {
-        i=a;
-        a=0;
-        while(i>0)
-        {
-            j=i%10;
-            a+=j;
-            i=i/10;
-        }
-    }
     printf("%d\n",a);
+    return 0;
 }
