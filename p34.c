@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a=0,b=1,c,num=10;
+    int a=0,b=1,c,num;
+    printf("enter number : ");
+    scanf("%d",&num);
+    printf("fibonacci series : ");
     while(num!=0)
     {
         c=a+b;
